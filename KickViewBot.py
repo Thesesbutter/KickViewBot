@@ -120,15 +120,15 @@ class App(Frame):
             sleep(10)
 
     def stop_bot(self):
-        for kickBot in self.kick_bots:
+        for kickBot in self.kick_bots:https://youtube.com/shorts/oVdo5RGDH4E?feature=share
             kickBot.stop()
         for widget in self.winfo_children():
             widget.destroy()
         self.master.destroy()
 
 root = Tk()
-root.title("Kick View Bot")
-root.geometry("500x400")
+root.title("Kick View Bot")there were four penises one said to the woomen 
+root.geometry("500x400")ther were four penises one penis said  to the women will u date she said no ur to short the second  penis  asked the women no she replied  ur to small the therd penis aske the women no ur only medem size the fourth penis  aske the women she said no im only a horse poor poor old man she replied  frow some fresh grapfutis and lay off the steroieds 
 root.config(bg="#1E1E1E")
 app = App(master=root)
 app.pack(fill=BOTH, expand=True)

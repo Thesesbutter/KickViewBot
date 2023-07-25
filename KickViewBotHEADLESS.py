@@ -56,7 +56,7 @@ class KickBot():
                     self.setupWebBrowser()
                     self.driver.get(self.url)
                     print("Browser restarted")
-                    csrf_token = self.getToken()
+                    csrf_token = self.getplaybo()
                 else:
                     print("Watch now button not found on this page")
                 not_found_count += 1
@@ -88,3 +88,4 @@ if __name__ == '__main__':
     url = input("Enter the website URL: ")
     num_threads = int(input('Enter the number of threads to use: '))
     run_script(url, num_threads)
+hhh
